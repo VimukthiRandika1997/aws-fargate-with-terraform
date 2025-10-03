@@ -8,6 +8,8 @@ The pipeline builds a Docker image, pushes it to Amazon ECR, and deploys it to a
 - Make sure that your AWS credentials are configured in your environment
 - You can use AWS CLI tool to configure them: [more details](/docs/configure_aws_cli.md)
 
+- Create the initial S3 bucket to store the terraform state: [more details](/docs/create_terraform_state_bucket.md)
+
 ### 2. Deploy the infrastructure
 
 - In this step, the cloud resources are created in the AWS
